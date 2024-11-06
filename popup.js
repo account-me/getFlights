@@ -476,7 +476,7 @@ $(document).ready(function() {
 					if(ee.depart1.includes("المدينة")){var deThrid = ee.depart1.replace("المنورة ", "");}else{var deThrid = ee.depart1;}
 					var th3Flights = '<div class="flight-box '+ ee.site1 +'">';
 					th3Flights     += '<div class="row">';
-					th3Flights       += '<div class="col-5 seat2">' + ee.date1 + vv2 +'</div>';
+					th3Flights       += '<div class="col-5 seat1">' + ee.date1 + vv1 +'</div>';
 					th3Flights       += '<div class="col-2"><bdi>' + deThrid + '</bdi></div>';
 					th3Flights       += '<div class="col-2"><bdi>' + arThrid + '</bdi></div>';
 					th3Flights       += '<div class="col-3"><bdi  style="font-size: 18px;">' + ee.amount1 + ' <div class="rs1">ريال</div></bdi></div>';
